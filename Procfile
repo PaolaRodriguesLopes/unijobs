@@ -1,0 +1,1 @@
+web: sh setup.sh && pip install -r requirements.txt && streamlit python3 -m uvicorn --app-dir=./src app:app --host=0.0.0.0 --reload
